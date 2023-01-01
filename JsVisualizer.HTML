@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for 22f Lab 03.
+  For: 22f EECS 1012, York University, EECS, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Learning Kit </title>
+  
+  <!-- in Ex1, add a link tag here to connect it to the css file -->
+  <link rel="stylesheet" href="LearningKit.css" type="text/css" >
+
+  <!-- in Ex1, add a script tag here to connect it to the js file -->
+  <script src="LearningKit.js"></script>
+  
+</head>
+<body>
+
+  <header>
+    <h1> My Computational Thinking Kit </h1>
+	<nav>
+	   <!-- In Ex1, add an attribute onclick to button-->
+       <button onclick="p01Func()">Problem01</button>
+       <!-- In Ex3, add an attribute onclick to button-->  
+       <button onclick="p02Func()">Problem02</button>
+       <button onclick="p03Func()">Problem03</button>
+       <button onclick="p04Func()">Problem04</button>
+       <button onclick="p05Func()">Problem05</button>
+       <button onclick="p06Func()">Problem06</button>
+       <button onclick="p07Func()">Problem07</button>
+       <button onclick="p08Func()">Problem08</button>
+       <button onclick="p09Func()">Problem09</button>
+       <button onclick="p10Func()">Problem10</button>
+ 
+       <button onclick="p11Func()">Problem11</button>
+       <button onclick="p12Func()">Problem12</button>
+       <button onclick="p13Func()">Problem13</button>
+       <button onclick="p14Func()">Problem14</button>
+       <button onclick="p15Func()">Problem15</button>
+       <button onclick="p16Func()">Problem16</button>
+       <button onclick="p17Func()">Problem17</button>
+       <button onclick="p18Func()">Problem18</button>
+       <button onclick="p19Func()">Problem19</button>
+       <button onclick="p20Func()">Problem20</button>
+ 
+       <button onclick="p21Func()">Problem21</button>
+       <button onclick="p22Func()">Problem22</button>
+       <button onclick="p23Func()">Problem23</button>
+       <button onclick="p24Func()">Problem24</button>
+       <button onclick="p25Func()">Problem25</button>
+       <button onclick="p26Func()">Problem26</button>
+       <button onclick="p27Func()">Problem27</button>
+       <button onclick="p28Func()">Problem28</button>
+       <button onclick="p29Func()">Problem29</button>
+       <button onclick="p30Func()">Problem30</button>
+	</nav>
+  </header>
+  
+  <div id="problem" class="problem">
+  </div>
+  <div class="column1 design">
+    <!-- in Ex2, add an attribute onclick to the following input-->
+	<input id="check1" type="checkbox" onclick="checkUncheck1()"/> Design
+
+    <!-- in Ex4, add attributes onclick and ondblclick to the following img-->
+ 	<img ondblclick="zoomIn()" onclick="zoomOut()" id="flowchart" src="images/images/RectanglePerimeter.png" alt="null"/>
+   
+  </div>
+  <div class="column2 jsSolution">
+	<input id="check2" type="checkbox"  onclick="checkUncheck2()"/> JavaScript Solution
+	 <img id="js" src="images/images/rectPerimFlow.jpg" alt="null" />
+   
+  </div>
+  <div class="column3 otherSolution">
+	<input id="check3" type="checkbox"  onclick="checkUncheck3()"/> Another Solution
+	<img id="another" src="" alt="null" />
+  
+  </div>
+
+  <footer>(c) Author of this web page: <span><!--In Ex 1, replace your name here-->Sanchita Chowdhury</span> </footer>
+</body>
+</html>
